@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const CONFIG = {
-        GOOGLE_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycby4Be4x95MlYuwItEbrWN_SLPMxwwj8dSsHftD2bSKd2mMFpS7a08fJFS4i55F212UW/exec',
+        GOOGLE_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxKAHbuGdzsIA2eF4t1rDtEPYaG-cB4lZjVxTvEUjC8GKoVgze6cw3WUCWFIF1Wq4tX/exec',
         LOCATIONS: [
             { name: "D6", lat: 20.962632250215897, lon: 105.74876993308236, radius: 50 },
             { name: "3Sao", lat: 20.960579771367236, lon: 105.74848140331994, radius: 50 }
