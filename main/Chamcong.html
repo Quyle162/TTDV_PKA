@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Chấm Công</title>
+    <script src="https://kit.fontawesome.com/7b48e9f144.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Chamcong.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="header">
+            <i class="fas fa-user-clock icon-header"></i>
+            <h1>Bảng Chấm Công</h1>
+            <p class="user-greeting">Xin chào, <span id="current-user"></span></p>
+        </div>
+
+        <div class="form-group">
+            <label for="shift-select"><i class="fas fa-calendar-alt"></i> Chọn ca làm việc:</label>
+            <select id="shift-select">
+                <option value="TN-S1">Sáng 3Sao-Cơm</option>
+                <option value="TN-S2">Sáng 3Sao-Bánh mì</option>
+                <option value="TN-Tr1">Trưa 3Sao</option>
+                <option value="TN-Tr2">Trưa D6</option>
+                <option value="PV">Trưa T2D6</option>
+                <option value="TN-C">Chiều</option>
+                <option value="TN-T">Tối</option>
+                <option value="PV-TC">Tăng Cường</option>
+            </select>
+        </div>
+
+        <div class="actions">
+            <button id="check-in-btn" class="btn btn-success">
+                <i class="fas fa-sign-in-alt"></i> Check In
+            </button>
+            <button id="check-out-btn" class="btn btn-danger">
+                <i class="fas fa-sign-out-alt"></i> Check Out
+            </button>
+        </div>
+
+        <div id="status-container">
+            <p id="status-message"></p>
+        </div>
+
+        <div class="log-container">
+            <h3><i class="fas fa-history"></i> Lịch sử gần đây</h3>
+            <div class="table-wrapper">
+                <table id="log-table">
+                    <thead>
+                        <tr>
+                            <th>Trạng Thái</th>
+                            <th>Ca</th>
+                            <th>Thời Gian</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="Chamcong.js"></script>
+</body>
+
+</html>
