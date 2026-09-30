@@ -8,7 +8,7 @@ Duyên,123
 Mạc Hằng,123
 Quốc Bảo,123
 Thu Thảo,123
-Đắc Đức,123
+Đắc Đức,160206
 Phương Linh,123
 Đức Phúc,123
 Hoài Thương,123
@@ -26,3 +26,5 @@ Minh Đức,123
 Mai Linh,123
 Xuân Công,123
 Minh Phước,123
+Xuân Phú,123
+Thuỳ Linh,123
