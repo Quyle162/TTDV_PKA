@@ -1,6 +1,5 @@
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbz7XwKeXSHGPgUw_nnwaPiIM0Mdw9bOb7qXMkJCdSiswVZT2eUivbIZB86LQ9YhzMPypQ/exec";
-
+  "https://script.google.com/macros/s/AKfycbz7Gjww8yZb3JwldfcIIUq4HFJWwmSPybhH0QGBKQzWMbGX9AqCbH510uoRJ0Q8qkquCQ/exec"
 exports.handler = async function (event) {
   // Cho phép preflight nếu cần
   if (event.httpMethod === "OPTIONS") {
